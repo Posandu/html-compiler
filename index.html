@@ -1,0 +1,25 @@
+<h1>
+    Hai World!
+</h1>
+<p>
+    This is a paragraph. \n
+</p>
+
+<button onclick="count++">
+    Click me
+</button>
+
+<!--
+    This is a comment.
+    It is not displayed.
+-->
+
+<h3>
+    Count: {{ count }}
+</h3>
+
+<For array="[1, 2, 3, 4, 5]" as="item,i">
+    <p key="i">
+        {{ item + "" + i }}
+    </p>
+</For>
