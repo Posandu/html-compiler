@@ -11,9 +11,8 @@
 	"license": "ISC",
 	"type": "module",
 	"dependencies": {
-		"parse5": "^7.0.0"
-	},
-	"devDependencies": {
-		"prettier": "2.6.2"
+		"parse5": "^7.0.0",
+		"prettier": "^2.7.0",
+		"terser": "^5.14.1"
 	}
 }

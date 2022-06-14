@@ -1,0 +1,88 @@
+{
+  "type": "App",
+  "children": [
+    {
+      "type": "Script",
+      "value": "\n    let count = 0;\n"
+    },
+    {
+      "type": "Element",
+      "tagName": "h1",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Heading! "
+        },
+        {
+          "type": "Text",
+          "value": "count",
+          "template": true
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "Element",
+      "tagName": "p",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n    Donec euismod, nisl eget consectetur sagittis, nisl nunc\n    consectetur nisi, eu aliquam nisi nisl eu nisl."
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "Element",
+      "tagName": "button",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Button!"
+        }
+      ],
+      "events": [
+        {
+          "name": "mouseover",
+          "value": "count=Math.random()"
+        }
+      ]
+    },
+    {
+      "type": "Element",
+      "tagName": "h1",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Count is "
+        },
+        {
+          "type": "Text",
+          "value": "count",
+          "template": true
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "Element",
+      "tagName": "h1",
+      "children": [
+        {
+          "type": "Text",
+          "value": "Count is "
+        },
+        {
+          "type": "Text",
+          "value": "count",
+          "template": true
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "Style",
+      "value": "\n    body {\n        background-color: #ebf2ff;\n        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n        font-size: 14px;\n    }\n"
+    }
+  ]
+}

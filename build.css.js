@@ -1,0 +1,1 @@
+function CSS(){const e=document.createElement("style");e.type="text/css",e.appendChild(document.createTextNode("\n    body {\n        background-color: #ebf2ff;\n        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n        font-size: 14px;\n    }\n")),document.head.appendChild(e)}CSS();
